@@ -1,6 +1,6 @@
 # GitHub Action: Packer
 
-## This fork of [packer-github-actions](https://github.com/operatehappy/packer-github-actions) replaces the dockerfile to be based on Ubuntu and installs Packer, Ansible and other dependancies. The action now enables the use of the Ansible provider in your Packer builds.
+## This fork of [packer-github-actions](https://github.com/operatehappy/packer-github-actions) replaces the dockerfile to be based on Ubuntu and installs Packer, Ansible and other dependancies. The action now enables the use of the Ansible provisioner in your Packer builds.
 
 > GitHub Action for running Packer [commands](https://packer.io/docs/commands/index.html).
 
