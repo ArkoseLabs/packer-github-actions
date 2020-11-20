@@ -1,6 +1,7 @@
 FROM ubuntu:bionic
 # Install Packer
 RUN apt-get update
+RUN apt-get install git -y
 RUN apt-get install curl -y
 RUN apt-get install gnupg2 -y
 RUN apt-get install apt-utils -y
