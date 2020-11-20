@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu:bionic
 # Install Packer
 RUN apt-get update
 RUN apt-get install curl -y
